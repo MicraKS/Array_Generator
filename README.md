@@ -14,3 +14,6 @@ print(main(5))
 `[[1, 3, 3], [2, 3], [1], [5, 5, 5, 5], [4, 4]]`
 
 In this example, generates a nested array with 5 sub-arrays. The lengths of these sub-arrays are randomly generated and the values within them are also randomly generated. The final output is a nested array with sub-arrays of varying lengths and sorted in alternating order.
+____
+
+[Telegram для связи](https://t.me/xMiNix)
