@@ -4,8 +4,9 @@ This program generates a nested array of random integers. The nested array consi
 ## How to Use
 1. Import the `random` module.
 2. Call the `main()` function, passing in an integer value for `n`.
-    
-   `print(main(5))`
+```
+print(main(5))
+```
 4. The function will return a nested array of `n` sub-arrays with random lengths and values.
 
 
