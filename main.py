@@ -2,16 +2,16 @@ import random
 
 
 def get_length_list(n):  # Generate n keys, they will be used as the size of each array.
-    len_list = set()
+    length_list = set()
 
-    while len(len_list) < n:
+    while len(length_list) < n:
         for i in range(n):
-            len_list.add(random.randint(1, n))
+            length_list.add(random.randint(1, n))
 
-    len_list = list(len_list)
-    random.shuffle(len_list)
+    length_list = list(length_list)
+    random.shuffle(length_list)
 
-    return len_list
+    return length_list
 
 
 def main(n):
